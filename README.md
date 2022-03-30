@@ -9,21 +9,39 @@ A project created to practice canvas based on a YouTube tutorial.
 ## Controls
 **Player 1 - Samurai Mack**
 
-  ```shell
-  <strong>a</strong> - move left
-  <strong>d</strong> - move right
-  <strong>w</strong> - jump
-  <strong>space</strong> - attack
-  ```
+  <div>
+    <div>
+      <strong>a</strong> - move left
+    </div>
+    <div>
+      <strong>d</strong> - move right
+    </div>
+    <div>
+      <strong>w</strong> - jump
+    </div>
+    <div>
+      <strong>space</strong> - attack
+    </div>
+  </div>
+  
 
 **Player 2 - Kenji**
 
-  ```shell
-    <strong>arrow left</strong> - move left
-    <strong>arrow right</strong> - move right
-    <strong>arrow up</strong> - jump
-    <strong>p</strong> - attack
-  ```
+  <div>
+    <div>
+      <strong>arrow left</strong> - move left
+    </div>
+    <div>
+      <strong>arrow right</strong> - move right
+    </div>
+    <div>
+      <strong>arrow up</strong> - jump
+    </div>
+    <div>
+      <strong>p</strong> - attack
+    </div>
+  </div>
+  
 
 
 ## Online version
