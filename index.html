@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fighting Game</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="game-wrapper">
+    <div class="game-health-bar">
+      <!-- player health -->
+      <div class="health-bar-wrapper health-bar-wrapper--player">
+        <div class="health-bar"></div>
+        <div class="health-bar-cover" id="playerHealth"></div>
+        <p class="health-bar-name">Samurai Mack</p>
+      </div>
+      <!-- timer -->
+      <div class="timer" id="timer">10</div>
+      <!-- enemy health -->
+      <div class="health-bar-wrapper health-bar-wrapper--enemy">
+        <div class="health-bar"></div>
+        <div class="health-bar-cover" id="enemyHealth"></div>
+        <p class="health-bar-name">Kenji</p>
+      </div>
+    </div>
+
+    <div class="finish-game-screen-wrapper" id="finishGameScreen">
+      <div class="finish-game-screen-inner">
+        <div class="finish-game-message" id="finishGameMessage">Draw!</div>
+        <div class="finish-game-start-new">Press Enter to start a new game</div>
+      </div>
+    </div>
+
+    <canvas></canvas>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js" integrity="sha512-bD2JVWcpIS1kkd7gbzcVKfGbwLTRKL+2RT55rGbhSp/nqCz8vanLuZ8O5K1FLtyPoS2RvLD9sThVgHdgrHFBPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="./js/utils.js"></script>
+  <script type="text/javascript" src="./js/classes.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
