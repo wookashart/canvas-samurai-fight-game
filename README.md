@@ -9,17 +9,17 @@ A project created to practice canvas based on a YouTube tutorial.
 ## Controls
 ###### Player 1 - Samurai Mack
 
-  **a** - *move left*
-  **d** - *move right*
-  **w** - *jump*
-  **space** - *attack*
+  - **a** - *move left*
+  - **d** - *move right*
+  - **w** - *jump*
+  - **space** - *attack*
 
 ###### Player 2 - Kenji
 
-  **arrow left** - *move left*
-  **arrow right** - *move right*
-  **arrow up** - *jump*
-  **p** - *attack*
+  - **arrow left** - *move left*
+  - **arrow right** - *move right*
+  - **arrow up** - *jump*
+  - **p** - *attack*
 
 ## Online version
 
